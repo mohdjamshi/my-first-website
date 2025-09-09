@@ -31,3 +31,40 @@ nav a {
 nav a:hover {
     color: gold;
 }
+form {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+form button {
+    width: 100%;
+    padding: 0.8rem;
+    background: #162144;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+form button:hover {
+    background: #0d132b;
+}
