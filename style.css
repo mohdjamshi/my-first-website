@@ -1,26 +1,56 @@
+/* General page style */
 body {
-    background-color: #f4f4f9;
-    font-family: Arial, sans-serif;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  background-color: lightyellow;   /* light background */
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
-h1 { 
-    color: darkblue;
-    text-align: center;
-    margin-top: 20px;
+/* Header style */
+h1 {
+  color: darkblue;
+  text-align: center;
+  margin-top: 20px;
 }
 
+/* Paragraph style */
 p {
-    font-size: 18px;
-    line-height: 1.6;
-    text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
 }
 
-img { 
-    display: block;
-    margin: 20px auto;
-    max-width: 300px;
-    border-radius: 10px;
+/* Image style */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 300px;
+  border-radius: 10px;
+}
+nav { 
+    background-color: darkgreen;
+    padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #E1A730;
 }
