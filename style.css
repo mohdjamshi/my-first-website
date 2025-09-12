@@ -96,7 +96,7 @@ h2 {
 div { 
   text-align: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   nav ul li {
     display: block;
     margin: 10px 0;
@@ -115,4 +115,23 @@ div {
     font-size: 16px;
   }
   
+}
+footer {
+  background: rgba(19, 128, 106, 0.333)0;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+footer .social-icons a {
+  color: #E1A730;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer .social-icons a:hover {
+  text-decoration: underline;
 }
