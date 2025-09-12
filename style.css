@@ -11,7 +11,6 @@ body {
 h1 {
   color: darkblue;
   text-align: center;
-  margin-top: 20px;
 }
 
 /* Paragraph style */
@@ -87,4 +86,33 @@ nav ul li a:hover {
 }
 .contact a:hover {
   color: #E1A730;
+}
+
+h2 {
+  text-align: center;
+  color: #cfa958;
+}
+
+div { 
+  text-align: center;
+}
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .about-container { 
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-container img {
+    max-width: 90%;
+  }
+
+  p { 
+    font-size: 16px;
+  }
+  
 }
